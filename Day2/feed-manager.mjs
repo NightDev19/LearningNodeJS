@@ -10,7 +10,7 @@ import { access, constants, readFile, writeFile } from "fs/promises";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const jsonFile = join(__dirname, "feed.json");
+const jsonFile = join(__dirname, "feed.json"); // Path to the JSON file 
 
 // Reading and Writing Files
 
